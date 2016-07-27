@@ -1,0 +1,81 @@
+/* Here goes your CSS */
+h1{
+  color: #44CF6C;
+  letter-spacing: 10;
+}
+
+h2, h3{
+  color: #32A287;
+}
+
+p{
+  color: #6C464E;
+}
+
+body{
+  background: url(https://images.unsplash.com/photo-1464740042629-b78a46b310ae?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3538168e9ca626c02a410cf8827f2c44);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+}
+
+.img-circle{
+  border-radius: 40%;
+  -webkit-filter: grayscale(100%);
+}
+
+.img-circle:hover{
+  -webkit-filter: blur(5px);
+}
+
+.card{
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  color: darkgray;
+  width: 30%;
+  margin: 30px auto;
+  transition: box-shadow 150ms, transform 150ms;
+  text-align: center;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.avatar{
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+  width: 100px;
+  height: 100px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.list-inline a{
+  text-decoration: none;
+  color: #6C464E;
+}
+
+.list-inline a:hover{
+  color: #44CF6C;
+}
+
+.movie-cover img:hover{
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 150ms, transform 150ms;
+  transform: scale(1.1);
+}
